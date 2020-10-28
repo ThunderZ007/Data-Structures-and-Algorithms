@@ -1,3 +1,4 @@
+// Full problem Statement: https://practice-stage.geeksforgeeks.org/problems/pots-of-gold-game/1
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -32,10 +33,7 @@ int main() {
 		cin>>n;
 		int a[n];
 		for(int i=0;i<n;i++)
-		{
-			cin>>a[i];
-		}
-		
+			cin>>a[i];		
 		cout<<maxCoins(a,n)<<endl;
 		
 	}
